@@ -1,5 +1,5 @@
 
-public class Bubblesort {
+public class Binarysearch {
 
 	public static void printarray(int[]a)
 	{
