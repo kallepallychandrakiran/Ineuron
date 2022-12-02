@@ -6,10 +6,10 @@ public class Anagram {
 		
 		
 			
-			String s1 = "Triangle";
-			String s2 = "Integrapp";
-			s1 = s1.toLowerCase();
-			s2 = s2.toLowerCase();
+			String s1 = "triangle";
+			String s2 = "integrral";
+			s1 = s1.replace(" ","").toLowerCase();
+			s2 = s2.replace(" ","").toLowerCase();
 			char [] ch1 =  s1.toCharArray();
 			char [] ch2 =  s2.toCharArray();
 			int sum1 =0;
